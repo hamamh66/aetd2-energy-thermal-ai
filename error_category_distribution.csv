@@ -1,0 +1,6 @@
+Error_Category,Percent
+Zero-Actual / Undefined % Error,49.65760821232102
+Very Low Error (<20%),23.188626748484964
+Low Error (20-50%),14.690449873588191
+High Error (>60%),9.931267548373162
+Moderate Error (50-60%),2.5320476172326614

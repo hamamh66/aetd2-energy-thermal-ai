@@ -1,0 +1,2 @@
+Records_Evaluated,Mean_Predicted_Energy_Wh,Mean_Thermal_Load_Wh,Mean_Power_kW,Mean_TA_ESI,Mean_Distance_km_per_hr,Stable_Ratio_percent,Deficit_Ratio_percent,Storage_Action_Ratio_percent
+1000,976.3657262495883,1071.0028799999998,3.905462904998353,0.32001103280815574,781.0925809996706,0.0,66.60000000000001,5.800000000000001
