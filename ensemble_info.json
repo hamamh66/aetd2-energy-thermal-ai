@@ -1,0 +1,12 @@
+{
+  "top3_models": [
+    "CatBoost",
+    "HistGradientBoosting",
+    "LightGBM"
+  ],
+  "weights": [
+    0.33336538334806104,
+    0.33332750737949907,
+    0.3333071092724398
+  ]
+}
