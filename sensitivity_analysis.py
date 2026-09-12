@@ -12,7 +12,9 @@ import numpy as np, pandas as pd, itertools
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-d = pd.read_csv(HERE / "aetd2_results_first_1000.csv")
+FIG, TAB = HERE / "Outputs" / "Figures", HERE / "Outputs" / "Tables"
+FIG.mkdir(parents=True, exist_ok=True); TAB.mkdir(parents=True, exist_ok=True)
+d = pd.read_csv(TAB / "aetd2_results_first_1000.csv")
 EPS = 1e-6
 
 # ---- nominal parameters (exactly as in AETD2_notebook.ipynb) ----------------
@@ -115,12 +117,12 @@ for t1, t2 in [(0.5, 1.0), (0.5, 1.5), (0.8, 1.2), (0.25, 1.0), (0.5, 2.0)]:
     record("etsi-threshold", f"tau1={t1}, tau2={t2}", a)
 
 res = pd.DataFrame(rows)
-res.to_csv(HERE / "sensitivity_all.csv", index=False)
-res[res.family == "utility"].to_csv(HERE / "sensitivity_utility_weights.csv", index=False)
-res[res.family == "thermal"].to_csv(HERE / "sensitivity_thermal_proxy.csv", index=False)
+res.to_csv(TAB / "sensitivity_all.csv", index=False)
+res[res.family == "utility"].to_csv(TAB / "sensitivity_utility_weights.csv", index=False)
+res[res.family == "thermal"].to_csv(TAB / "sensitivity_thermal_proxy.csv", index=False)
 
 # summary: range of the load-adaptation share within each family
 summ = res.groupby("family")["HVAC Moderation"].agg(["min", "max", "count"]).reset_index()
-summ.to_csv(HERE / "sensitivity_summary.csv", index=False)
+summ.to_csv(TAB / "sensitivity_summary.csv", index=False)
 print(summ)
 print(res.to_string())
