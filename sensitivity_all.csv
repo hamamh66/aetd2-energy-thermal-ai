@@ -1,0 +1,97 @@
+family,perturbation,Energy Storage,Normal Operation,HVAC Moderation,Load Reduction,mean_T
+utility,Energy Storage:w_esi x0.5,3.5,0.2,96.3,0.0,
+utility,Energy Storage:w_esi x0.75,4.0,0.0,96.0,0.0,
+utility,Energy Storage:w_esi x1.25,8.7,0.0,91.3,0.0,
+utility,Energy Storage:w_esi x1.5,11.1,0.0,88.9,0.0,
+utility,Energy Storage:w_surplus x0.5,4.2,0.0,95.8,0.0,
+utility,Energy Storage:w_surplus x0.75,4.3,0.0,95.7,0.0,
+utility,Energy Storage:w_surplus x1.25,7.8,0.0,92.2,0.0,
+utility,Energy Storage:w_surplus x1.5,9.8,0.0,90.2,0.0,
+utility,Energy Storage:w_gap x0.5,9.9,0.0,90.1,0.0,
+utility,Energy Storage:w_gap x0.75,7.7,0.0,92.3,0.0,
+utility,Energy Storage:w_gap x1.25,4.4,0.0,95.6,0.0,
+utility,Energy Storage:w_gap x1.5,4.1,0.0,95.9,0.0,
+utility,Normal Operation:w_esi x0.5,5.8,0.0,94.2,0.0,
+utility,Normal Operation:w_esi x0.75,5.8,0.0,94.2,0.0,
+utility,Normal Operation:w_esi x1.25,5.8,0.0,94.2,0.0,
+utility,Normal Operation:w_esi x1.5,5.5,0.3,94.2,0.0,
+utility,Normal Operation:w_imb x0.5,5.8,0.0,94.2,0.0,
+utility,Normal Operation:w_imb x0.75,5.8,0.0,94.2,0.0,
+utility,Normal Operation:w_imb x1.25,5.8,0.0,94.2,0.0,
+utility,Normal Operation:w_imb x1.5,5.8,0.0,94.2,0.0,
+utility,Normal Operation:w_gap x0.5,5.8,0.0,94.2,0.0,
+utility,Normal Operation:w_gap x0.75,5.8,0.0,94.2,0.0,
+utility,Normal Operation:w_gap x1.25,5.8,0.0,94.2,0.0,
+utility,Normal Operation:w_gap x1.5,5.8,0.0,94.2,0.0,
+utility,HVAC Moderation:w_esi x0.5,6.4,0.0,93.5,0.1,
+utility,HVAC Moderation:w_esi x0.75,6.1,0.0,93.9,0.0,
+utility,HVAC Moderation:w_esi x1.25,5.4,0.0,94.6,0.0,
+utility,HVAC Moderation:w_esi x1.5,5.1,0.0,94.9,0.0,
+utility,HVAC Moderation:w_gap x0.5,9.9,0.0,0.0,90.1,
+utility,HVAC Moderation:w_gap x0.75,9.9,0.0,89.7,0.4,
+utility,HVAC Moderation:w_gap x1.25,4.1,0.0,95.9,0.0,
+utility,HVAC Moderation:w_gap x1.5,3.8,0.0,96.2,0.0,
+utility,HVAC Moderation:w_E x0.5,4.7,0.0,95.3,0.0,
+utility,HVAC Moderation:w_E x0.75,5.2,0.0,94.8,0.0,
+utility,HVAC Moderation:w_E x1.25,6.5,0.0,93.5,0.0,
+utility,HVAC Moderation:w_E x1.5,7.0,0.0,93.0,0.0,
+utility,Load Reduction:w_esi x0.5,5.8,0.0,94.2,0.0,
+utility,Load Reduction:w_esi x0.75,5.8,0.0,94.2,0.0,
+utility,Load Reduction:w_esi x1.25,5.8,0.0,94.2,0.0,
+utility,Load Reduction:w_esi x1.5,5.8,0.0,94.1,0.1,
+utility,Load Reduction:w_T x0.5,5.8,0.0,94.2,0.0,
+utility,Load Reduction:w_T x0.75,5.8,0.0,94.2,0.0,
+utility,Load Reduction:w_T x1.25,5.8,0.0,94.2,0.0,
+utility,Load Reduction:w_T x1.5,5.8,0.0,94.2,0.0,
+utility,Load Reduction:w_gap x0.5,5.8,0.0,94.2,0.0,
+utility,Load Reduction:w_gap x0.75,5.8,0.0,94.2,0.0,
+utility,Load Reduction:w_gap x1.25,5.8,0.0,94.2,0.0,
+utility,Load Reduction:w_gap x1.5,5.2,0.0,91.0,3.8,
+utility,all w_gap x0.5,20.4,0.0,79.6,0.0,
+utility,all w_esi x0.5,3.7,0.0,96.3,0.0,
+utility,all w_gap x0.75,13.6,0.0,86.4,0.0,
+utility,all w_esi x0.75,4.1,0.0,95.9,0.0,
+utility,all w_gap x1.25,4.0,0.0,96.0,0.0,
+utility,all w_esi x1.25,8.1,0.0,91.9,0.0,
+utility,all w_gap x1.5,3.3,0.0,96.7,0.0,
+utility,all w_esi x1.5,10.5,0.0,89.5,0.0,
+utility,all w_gap x2.0,2.0,0.0,98.0,0.0,
+utility,all w_esi x2.0,16.5,0.0,83.5,0.0,
+thermal,K_HEAT x0.5,8.1,0.0,91.9,0.0,624.8
+thermal,K_HEAT x0.75,6.7,0.0,93.3,0.0,847.9
+thermal,K_HEAT x1.25,4.9,0.0,95.1,0.0,1294.1
+thermal,K_HEAT x1.5,4.4,0.0,95.6,0.0,1517.2
+thermal,K_COOL x0.5,5.8,0.0,94.2,0.0,1071.0
+thermal,K_COOL x0.75,5.8,0.0,94.2,0.0,1071.0
+thermal,K_COOL x1.25,5.8,0.0,94.2,0.0,1071.0
+thermal,K_COOL x1.5,5.8,0.0,94.2,0.0,1071.0
+thermal,K_INERTIA x0.5,6.2,0.0,93.8,0.0,981.7
+thermal,K_INERTIA x0.75,6.1,0.0,93.9,0.0,1026.3
+thermal,K_INERTIA x1.25,5.5,0.0,94.5,0.0,1115.7
+thermal,K_INERTIA x1.5,5.3,0.0,94.7,0.0,1160.3
+thermal,LAMBDA x0.5,6.2,0.0,93.8,0.0,981.7
+thermal,LAMBDA x0.75,6.1,0.0,93.9,0.0,1026.3
+thermal,LAMBDA x1.25,5.5,0.0,94.5,0.0,1115.7
+thermal,LAMBDA x1.5,5.3,0.0,94.7,0.0,1160.3
+thermal,all K x0.25,10.8,0.0,89.2,0.0,267.8
+thermal,all K x0.5,8.8,0.0,91.2,0.0,535.5
+thermal,all K x0.75,7.0,0.0,93.0,0.0,803.3
+thermal,all K x1.25,4.8,0.0,95.2,0.0,1338.8
+thermal,all K x1.5,4.3,0.0,95.7,0.0,1606.5
+thermal,all K x2.0,3.8,0.0,96.2,0.0,2142.0
+thermal,"setpoints (19,26) degC",19.2,0.0,80.8,0.0,824.8
+thermal,"setpoints (20,25) degC",12.7,0.0,87.3,0.0,947.1
+thermal,"setpoints (20,24) degC",12.7,0.0,87.3,0.0,947.1
+thermal,"setpoints (21,25) degC",5.8,0.0,94.2,0.0,1071.0
+thermal,"setpoints (22,23) degC",3.5,0.0,96.5,0.0,1194.9
+thermal,"setpoints (22,26) degC",3.5,0.0,96.5,0.0,1194.9
+thermal,"setpoints (18,27) degC",23.3,0.0,76.7,0.0,704.5
+thermal,OCC_NIGHT=0.3,5.8,0.0,94.2,0.0,878.9
+thermal,OCC_NIGHT=0.8,5.8,0.0,94.2,0.0,1199.1
+thermal,OCC_NIGHT=1.0,5.8,0.0,94.2,0.0,1327.2
+robustness,clip E_hat at 0,5.8,0.0,94.2,0.0,
+etsi-threshold,"tau1=0.5, tau2=1.0",24.0,9.4,66.6,0.0,
+etsi-threshold,"tau1=0.5, tau2=1.5",24.0,15.0,61.0,0.0,
+etsi-threshold,"tau1=0.8, tau2=1.2",30.3,5.4,64.3,0.0,
+etsi-threshold,"tau1=0.25, tau2=1.0",14.3,19.1,66.6,0.0,
+etsi-threshold,"tau1=0.5, tau2=2.0",24.0,18.6,57.4,0.0,

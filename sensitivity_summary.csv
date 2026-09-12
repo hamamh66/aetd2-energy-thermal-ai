@@ -1,0 +1,5 @@
+family,min,max,count
+etsi-threshold,57.4,66.6,5
+robustness,94.2,94.2,1
+thermal,76.7,96.5,32
+utility,0.0,98.0,58

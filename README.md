@@ -38,3 +38,10 @@ Run the notebook in Google Colab. Mount Google Drive when prompted. All outputs 
 
 ## License
 Open-source for research and educational use.
+
+## Revision R2 additions (Energy Conversion and Management: X, ECMX-D-26-00831)
+
+- `sensitivity_analysis.py` — re-derives the nominal thermal proxy, comfort gap and action assignment from `aetd2_results_first_1000.csv` (asserting exact reproduction), then evaluates the sensitivity of the action distribution to the utility-score coefficients and the thermal-proxy parameters (96 configurations).
+- `sensitivity_all.csv`, `sensitivity_utility_weights.csv`, `sensitivity_thermal_proxy.csv`, `sensitivity_summary.csv` — result tables.
+- `sensitivity_action_share.png` — Fig. 7 of the revised manuscript.
+- `aetd2_action_distribution.png` — regenerated from `action_distribution.csv` (942 / 58).
